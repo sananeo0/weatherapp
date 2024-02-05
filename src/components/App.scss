@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+body {
+    background: rgb(111, 12, 140);
+    background: linear-gradient(
+      315deg,
+      rgb(97, 11, 123) 0%,
+      rgba(172, 72, 10, 1) 89%
+    );
+}
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg,#00feba,#5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding:40px 35px;
+  text-align: center;
+}
+
+.error{
+  color: red;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
